@@ -84,7 +84,7 @@ const Home = () => {
           
             <div className='Top_Posts_Section'>
                   {contextData.filter((e)=>e.category === "Top").map((item,index)=>{
-                    {console.log(item.name)}
+                    // {console.log(item.name)}
                    return(
                     <>
                       <div key={item.index} className='Top_post_Series'>
