@@ -57,7 +57,7 @@ const Food = () => {
                         <div>
                         {contextData.filter((e)=>e.category === "Advertisement").map((item,index)=>{
                           return(
-                            <div className='advertise'>
+                            <div className='advertise_Food'>
                               <h1 className='advertise_pannel'>Advertisement pannel</h1>
                             <img src={item.image} alt='not found'/>
                           </div>

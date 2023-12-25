@@ -260,7 +260,7 @@ body{
   position: relative;
   top: 40px;
   width: 30vw;
-  height: 92vh;
+  height: 840px;
 }
 
 .advertise_pannel{
@@ -270,6 +270,19 @@ body{
   background-color: aqua;
 }
 
+.advertise_Food img{
+  position: relative;
+  top: 40px;
+  width: 30vw;
+  height: 620px;
+}
+
+.advertise_home img{
+  position: relative;
+  top: 40px;
+  width: 30vw;
+  height: 65vh;
+}
 
 @media screen and (min-width:350px) and (max-width:540px) {
 
@@ -281,7 +294,7 @@ body{
   }
 
   .NavTop{
-    width: 80%;
+    width: 100%;
   }
 
   .Hamburger{
@@ -368,7 +381,7 @@ body{
     .Top_stories_Section{
       position: relative;
       top:100px;
-      width: 450px;
+      width: 55vw;
     }
 
     .Top_posts{
@@ -392,6 +405,21 @@ body{
     height: 70vh;
     margin: 5px;
   }
+
+  .advertise_home img{
+    position: relative;
+    top: 40px;
+    width: 300px;
+    height: 65vh;
+  }
+
+  .advertise_Food img{
+    position: relative;
+    top: 40px;
+    width: 300px;
+    height: 65vh;
+  }
+  
   
   }
 

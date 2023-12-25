@@ -61,8 +61,8 @@ const Home = () => {
             <div className='Top_stories_Section'>
                {contextData.filter((e)=>e.id % 8 === 0).map((item,index)=>{
                 return(
-                  <div key={item.index}>
-                      <div className='k'>
+                  
+                      <div className='k' key={item.index}>
                           <NavLink to={`/Dynamic/${item.id}`}>
                             <img className='Top_Story_images' src={item.image} alt='not found'/>
                           </NavLink>
@@ -74,7 +74,7 @@ const Home = () => {
                             <p>{item.description.slice(0,125)}....</p>
                             <h3>{item.category} : {item.date}</h3>
                           </div>
-                      </div>
+                      
                   </div>
                 )
                })}
@@ -103,7 +103,7 @@ const Home = () => {
                    <div>
                    {contextData.filter((e)=>e.category === "Advertisement").map((item,index)=>{
                     return(
-                      <div className='advertise'>
+                      <div className='advertise_home'>
                         <h1 className='advertise_pannel'>Advertisement pannel</h1>
                       <img src={item.image} alt='not found'/>
                     </div>
