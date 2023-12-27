@@ -15,7 +15,7 @@ const NavBar = () => {
 
     const [isClick , setIsClick] = useState(true)
     const [className, setClassName] =useState('Nav')
-    const [navClassName, setNavClassName] =useState('Nav')
+    // const [navClassName, setNavClassName] =useState('Nav')
 
     const Change = ()=>{
         if(isClick)
