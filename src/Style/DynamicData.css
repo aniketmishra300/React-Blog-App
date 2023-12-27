@@ -1,0 +1,186 @@
+.Dynamic_Data_Represent{
+    position: relative;
+    top: 100px;
+    left: 10%;
+    transform: translate(50%);
+    /* border: 2px solid red; */
+    width: 40%;
+    height: auto;
+}
+
+
+.mainImage{
+    width: 50vw;
+    height: 50vh;
+    position: relative ;
+    left: 0%;
+    top: 0%;
+}
+
+.mainImage img{
+    width: 40vw;
+    height: 50vh;
+    border-radius: 10px;
+   
+}
+
+.Back_Button{
+  border-radius: 10px;
+  background-color:slategray;
+  width: 150px;
+  padding: 20px;
+  font-size: 23px;
+  position: relative;
+  top: 50px;
+  left: 40%;
+}
+
+.logo_avtar{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.logo_avtar img{
+    width: 100px;
+    height: 60px;
+}
+
+.Dynamic_Heading{
+    width: auto;
+    text-align: center;
+}
+
+.Main_Container{
+  height: auto;
+}
+
+.More_About_To_Know{
+  position: relative;
+  top: 34vh;
+  left: 40px;
+  width: 93vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 35px;
+  height: auto;
+  
+}
+
+.head2{
+  position: relative;
+  top: 200px;
+  left: 5%;
+  text-decoration: underline;
+  color: tomato;
+}
+
+.Dynamic_Data {
+  width: 25vw;
+}
+
+.Dynamic_Data_image{
+  width: 25vw;
+  height: 25vh;
+  border-radius: 15px;
+}
+
+.Dynamic_Data a{
+  text-decoration: none;
+  color: black;
+}
+
+  .Dynamic_Data:hover{
+   
+    transform: scale(1.02);
+    
+  }
+
+  .Dynamic_Data{
+    border: 2px solid rgb(215, 230, 242);
+    border-radius: 15px;
+  }
+
+  .The_latest_image{
+    width: 15vw;
+  }
+
+  /* ////////////////////for mobile view ///////////////////// */
+  @media screen and (min-width:350px) and (max-width:540px) {
+
+
+    .Dynamic_Data_Represent{
+        left: -195px;
+        width: 100%;
+    }
+  
+    .NavBar{
+      display: none;
+    }
+    
+    .mainImage img{
+      width: 100%;
+      height: 300px;
+    }
+  
+    .More_About_To_Know{
+      flex-direction: column;
+      top: 230px;
+      left: 8px;
+    }
+  
+    .Dynamic_Data{
+      left: 5px;
+      width: 100%;
+    }
+    .Dynamic_Heading{
+      font-size: 70%;
+      
+    }
+    .Dynamic_Data_image{
+      width: 100%;
+      height: 30vh;
+    }
+
+    .head2{
+      left: 0;
+    }
+
+    .Back_Button{
+      left: 25%;
+    }
+    }
+
+  /* /////////////////// for tab view//////////////// */
+
+  @media screen and (min-width:700px) and (max-width:850px) {
+
+
+  .Dynamic_Data_Represent{
+      left: -100px;
+      width: 500px;
+  }
+
+  .NavBar{
+    display: none;
+  }
+  
+  .mainImage img{
+    width: 500px;
+    height: 300px;
+  }
+
+  .More_About_To_Know{
+    top: 230px;
+    left: 15px;
+  }
+
+  .Dynamic_Data{
+    left: 5px;
+    width: 250px;
+  }
+
+  .Dynamic_Data_image{
+    width: 220px;
+    height: 120px;
+  }
+  }

@@ -1,0 +1,512 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* border: 5px solid red; */
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.NavTop{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: rgb(225, 232, 239);
+}
+
+.TheSiren{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.Hamburger{
+  display: none;
+}
+
+.the{
+  rotate: 90deg;
+  margin: 5px;
+}
+
+.Navbar{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-size: 120%;
+  width: 100%;
+}
+
+.Nav{
+  display: none;
+}
+
+.Navbar a{
+  text-decoration: none;
+}
+
+.fisrt{
+  position: relative;
+  top: 100px;
+  left: 5%;
+  display: flex;
+  width: 82%;
+  height: 85vh;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.top{
+  display: flex;
+  gap: 20px;
+}
+
+.img1{
+  margin: 5px;
+  width: 55vw;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.mainSmallImage{
+  display: flex;
+  position: relative;
+  width: 35vw;
+  height: 34vh;
+  border-radius: 10px;
+  /* gap: 5px; */
+  margin-bottom: 10px;
+}
+
+.mainSmallImage img{
+  width: 31vw;
+  height: 34vh;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.latest_head
+{
+  position: relative;
+  top: 50px;
+  left: 70px;
+  width: 13vw;
+  border-bottom: 3px solid red ;
+}
+
+.The_Latest{
+  position: relative;
+  top: 100px;
+  left: 40px;
+  width: 93vw;
+  display: flex;
+  gap: 35px;
+}
+
+/* .The_latest_Post{
+  border: 2px solid red;
+  width: 50vw;
+  height: auto;
+} */
+
+.LatestHoriz img,h3,p{
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.LatestHoriz a{
+  text-decoration: none;
+}
+.LatestHoriz:hover{
+ 
+  transform: scale(1.02);
+  
+}
+
+.LatestHoriz{
+  border: 2px solid rgb(215, 230, 242);
+  border-radius: 15px;
+  /* width: 100px; */
+}
+
+.Second_div{
+  display: flex;
+  /* flex-direction: row; */
+  gap: 25px;
+  position: relative;
+  top: 180px;
+  left: 3%;
+  height: auto;
+  width: 94%;
+  /* border: 2px solid red; */
+}
+
+
+.Top_stories{
+  position: relative;
+  top: 160px;
+  left: 5%;
+  border-bottom: 2px solid red;
+  width: 15vw;
+}
+
+
+.Top_stories_Section{
+  /* border: 1px solid green; */
+  width: 55vw;
+}
+
+._name_attribure{
+  font-size: 100%;
+}
+
+.Top_Story_images{
+  border-radius: 15px;
+  width: 23vw;
+}
+
+.Top_Story_images:hover{
+  transform: scale(1.01);
+
+}
+
+.Top_posts{
+  position: relative;
+  top: 200px;
+  left: 70%;
+  width: 13vw;
+  border-bottom: 2px solid red;
+}
+
+
+.k{
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+  border: 2px solid rgb(215, 230, 242);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.k:hover{
+  transform: scale(1.01);
+}
+
+.k a{
+  text-decoration: none;
+  color: black;
+}
+
+.All{
+  position: absolute;
+  top: -120px;
+}
+
+.Top_Post_images{
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.Top_Posts_Section{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+  position: relative;
+  left: 70px;
+}
+
+.Top_post_Series{
+  /* border: 2px solid rgb(224, 238, 250); */
+  display: flex;
+  justify-content: center ;
+  width: 40%;
+  gap: 1.5vw;
+  /* flex-wrap: wrap; */
+}
+
+.Top_post_Series a{
+  text-decoration: none;
+  color: black;
+  font-size: 1vw;
+}
+
+.Top_post_Series:hover{
+  transform: scale(1.01);
+}
+
+
+
+.horixontal_for_top{
+  height: 10vh;
+  
+}
+
+.advertise img{
+  position: relative;
+  top: 40px;
+  width: 30vw;
+  height: 840px;
+}
+
+.advertise_pannel{
+  border: 2px solid green;
+  text-align: center;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.advertise_Food img{
+  position: relative;
+  top: 40px;
+  width: 30vw;
+  height: 620px;
+}
+
+.advertise_home img{
+  position: relative;
+  top: 40px;
+  width: 30vw;
+  height: 65vh;
+}
+
+@media screen and (min-width:350px) and (max-width:540px) {
+
+
+  body{
+    width: 98%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+  .NavTop{
+    width: 100%;
+  }
+
+  .Hamburger{
+    display: block;
+    width: 35px;
+    position: relative;
+    left: 50%;
+  }
+
+  .ResponsiveNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Navbar{
+    display: none;
+  }
+  
+  .Nav{
+    display: none;
+  }
+    .fisrt{
+      flex-direction: column;
+      left: 2%;
+      width: 85%;
+      height: 500px;
+      gap: 1px;
+     
+    }
+  
+    .img1{
+      width: 90vw;
+      height: 40vh;
+      border-radius: 10px;
+    }
+  
+    .mainSmallImage{
+     width: 90vw;
+      height: 200px;
+      gap: 5px;
+    }
+    
+    .mainSmallImage img{
+      width: 90vw;
+      height: 200px;
+      border-radius: 10px;
+      margin: 5px;
+    }
+  
+    .latest_head{
+      top: 250px;
+      width: 200px;
+    }
+    
+    .The_Latest{
+      flex-direction: column;
+      top: 260px;
+      left: 10px;
+      width: 90vw;
+    }
+
+
+    .Second_div{
+      flex-direction: column;
+    }
+
+
+    .Top_stories{
+      top: 250px;
+      width: 200px;
+    }
+
+    .k{
+      flex-direction: column;
+      width: 85vw;
+    }
+
+    .k img{
+      width: 70vw;
+      height: 20vh;
+    }
+
+    .Top_stories_Section{
+      position: relative;
+      top:100px;
+      width: 55vw;
+    }
+
+    .Top_posts{
+     display: none;
+    }
+    
+    .Top_Posts_Section{
+      top: 150px;
+      left: 5%;
+      width: 80vw;
+    }
+  
+    .Top_post_Series img{
+      width: 80vw;
+    }
+  
+  .advertise img{
+    position: relative;
+    width: 80vw;
+    top: 0px;
+    height: 70vh;
+    margin: 5px;
+  }
+
+  .advertise_home img{
+    position: relative;
+    top: 40px;
+    width: 300px;
+    height: 65vh;
+  }
+
+  .advertise_Food img{
+    position: relative;
+    top: 40px;
+    width: 300px;
+    height: 65vh;
+  }
+  
+  
+  }
+
+
+/* ////////////////// for Tab View ///////////////// */
+
+@media screen and (min-width:581px) and (max-width:920px) {
+
+/* .Navbar{
+  display: none;
+} */
+body{
+  width: 98%;
+}
+
+  .fisrt{
+    left: 2%;
+    width: 85%;
+    height: 500px;
+    gap: 1px;
+   
+  }
+
+  .img1{
+    width: 70%;
+    height: 400px;
+    border-radius: 10px;
+  }
+
+  .mainSmallImage{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    /* gap: 5px; */
+    margin-bottom: 10px;
+  }
+  
+  .mainSmallImage img{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .The_Latest{
+    top: 80px;
+    left: 20px;
+  }
+  
+  .Top_stories_Section{
+    width: 450px;
+  }
+
+
+  .Top_posts{
+    top: 250px;
+    left: 70%;
+    width: 13vw;
+   
+  }
+  
+  .Top_Posts_Section{
+    left: 5%;
+  }
+
+
+  .Top_Post_images{
+    height: 17.5vh;
+  }
+
+  .secondTopbolly{
+    height: 23vh;
+  }
+
+  .advertiseFitness img{
+    width: 250px;
+    height: 600px;
+  }
+
+  .advertise_home img{
+    height: 650px 
+  }
+
+  .advertise_Food img{
+    height: 42em;
+  }
+}
